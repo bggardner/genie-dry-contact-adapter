@@ -1,0 +1,432 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5200 2800 5800 2800
+Wire Wire Line
+	5800 2800 6600 2800
+Connection ~ 6400 4200
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 2800 5200 3550
+Wire Wire Line
+	5200 3850 5200 4800
+Wire Wire Line
+	5100 4800 5200 4800
+Connection ~ 4800 2900
+Wire Wire Line
+	4800 2900 4800 4600
+Wire Wire Line
+	4800 2300 4900 2300
+Connection ~ 4800 2300
+Wire Wire Line
+	4300 2300 4800 2300
+Wire Wire Line
+	4800 2750 4800 2900
+Wire Wire Line
+	4800 2300 4800 2450
+Connection ~ 8000 4000
+Wire Wire Line
+	8000 4000 8000 4200
+Connection ~ 4300 2300
+$Comp
+L power:GND #PWR0112
+U 1 1 61E2A00A
+P 4800 5000
+F 0 "#PWR0112" H 4800 4750 50  0001 C CNN
+F 1 "GND" H 4805 4827 50  0000 C CNN
+F 2 "" H 4800 5000 50  0001 C CNN
+F 3 "" H 4800 5000 50  0001 C CNN
+	1    4800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4200 8000 4200
+Wire Wire Line
+	6400 3300 6700 3300
+Wire Wire Line
+	6400 4200 6400 3300
+Wire Wire Line
+	8000 3900 8000 4000
+Wire Wire Line
+	7800 3700 7700 3700
+Wire Wire Line
+	7800 4000 7800 3700
+Wire Wire Line
+	8000 4000 7800 4000
+$Comp
+L Device:R_US R7
+U 1 1 61D92DE2
+P 8000 3750
+F 0 "R7" H 8068 3796 50  0000 L CNN
+F 1 "10k" H 8068 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8040 3740 50  0001 C CNN
+F 3 "~" H 8000 3750 50  0001 C CNN
+	1    8000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3700 6600 2800
+Wire Wire Line
+	6600 2800 7200 2800
+Connection ~ 6600 2800
+Wire Wire Line
+	6700 3700 6600 3700
+Wire Wire Line
+	6100 3500 6100 3600
+Wire Wire Line
+	6700 3500 6100 3500
+$Comp
+L Device:C C2
+U 1 1 61DA4C56
+P 6100 3750
+F 0 "C2" H 6215 3796 50  0000 L CNN
+F 1 "0.1uF" H 6215 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 3600 50  0001 C CNN
+F 3 "~" H 6100 3750 50  0001 C CNN
+	1    6100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 61D98F03
+P 5200 3700
+F 0 "R14" H 5268 3746 50  0000 L CNN
+F 1 "56k" H 5268 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5240 3690 50  0001 C CNN
+F 3 "~" H 5200 3700 50  0001 C CNN
+	1    5200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2900 4800 2900
+$Comp
+L power:GND #PWR0111
+U 1 1 6254E7CE
+P 4300 3100
+F 0 "#PWR0111" H 4300 2850 50  0001 C CNN
+F 1 "GND" H 4305 2927 50  0000 C CNN
+F 2 "" H 4300 3100 50  0001 C CNN
+F 3 "" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2800
+Wire Wire Line
+	5800 3600 5800 2800
+Wire Wire Line
+	7200 2800 7600 2800
+Connection ~ 7200 2800
+Wire Wire Line
+	7200 3100 7200 2800
+Connection ~ 8000 3500
+Wire Wire Line
+	8000 2800 8000 3500
+Wire Wire Line
+	7900 2800 8000 2800
+Wire Wire Line
+	8000 3500 8000 3600
+Wire Wire Line
+	7700 3500 8000 3500
+$Comp
+L power:GND #PWR0108
+U 1 1 620B43D1
+P 6100 3900
+F 0 "#PWR0108" H 6100 3650 50  0001 C CNN
+F 1 "GND" H 6105 3727 50  0000 C CNN
+F 2 "" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 62042E50
+P 5800 3900
+F 0 "#PWR0107" H 5800 3650 50  0001 C CNN
+F 1 "GND" H 5805 3727 50  0000 C CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0001 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61DCC3BA
+P 6400 4500
+F 0 "#PWR0102" H 6400 4250 50  0001 C CNN
+F 1 "GND" H 6405 4327 50  0000 C CNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "" H 6400 4500 50  0001 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61DCB213
+P 7200 3900
+F 0 "#PWR0101" H 7200 3650 50  0001 C CNN
+F 1 "GND" H 7205 3727 50  0000 C CNN
+F 2 "" H 7200 3900 50  0001 C CNN
+F 3 "" H 7200 3900 50  0001 C CNN
+	1    7200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 61DA798F
+P 5800 3750
+F 0 "C7" H 5915 3796 50  0000 L CNN
+F 1 "10uF" H 5915 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5838 3600 50  0001 C CNN
+F 3 "~" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 61DA7006
+P 6400 4350
+F 0 "C6" H 6515 4396 50  0000 L CNN
+F 1 "1nF" H 6515 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 4200 50  0001 C CNN
+F 3 "~" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 61D92647
+P 7750 2800
+F 0 "R6" V 7955 2800 50  0000 C CNN
+F 1 "68k" V 7864 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7790 2790 50  0001 C CNN
+F 3 "~" H 7750 2800 50  0001 C CNN
+	1    7750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 61D91FFC
+P 4800 2600
+F 0 "R5" V 5005 2600 50  0000 C CNN
+F 1 "1.5k" V 4914 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4840 2590 50  0001 C CNN
+F 3 "~" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 2300 4300 2700
+NoConn ~ 5500 2300
+Wire Wire Line
+	4000 2300 4300 2300
+Wire Wire Line
+	7700 3300 8400 3300
+Wire Wire Line
+	5200 4800 8300 4800
+Connection ~ 5200 4800
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 61DF5F2F
+P 3000 2300
+F 0 "J1" H 2892 2485 50  0000 C CNN
+F 1 "OPENER" H 2892 2394 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 3000 2300 50  0001 C CNN
+F 3 "~" H 3000 2300 50  0001 C CNN
+	1    3000 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 61DF795A
+P 8600 3300
+F 0 "J2" H 8628 3276 50  0000 L CNN
+F 1 "REMOTE" H 8628 3185 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 8600 3300 50  0001 C CNN
+F 3 "~" H 8600 3300 50  0001 C CNN
+	1    8600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3400 8300 4800
+Wire Wire Line
+	8400 3400 8300 3400
+$Comp
+L Timer:NE555D U1
+U 1 1 61E0D2CA
+P 7200 3500
+F 0 "U1" H 7200 4081 50  0000 C CNN
+F 1 "NE555DR" H 7200 3990 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8050 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 8050 3100 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54C D3
+U 1 1 61E133AD
+P 5200 2300
+F 0 "D3" H 5200 2525 50  0000 C CNN
+F 1 "BAT54C" H 5200 2434 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5275 2425 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 5120 2300 50  0001 C CNN
+	1    5200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2500 5200 2800
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 61E25B2D
+P 4900 4800
+F 0 "Q1" H 5105 4846 50  0000 L CNN
+F 1 "2N7002" H 5105 4755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5100 4725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4900 4800 50  0001 L CNN
+	1    4900 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 61E2DEF1
+P 4400 2900
+F 0 "Q2" H 4605 2946 50  0000 L CNN
+F 1 "2N7002" H 4605 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 2825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4400 2900 50  0001 L CNN
+	1    4400 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54C D12
+U 1 1 61E33F2B
+P 3800 2300
+F 0 "D12" V 3754 2388 50  0000 L CNN
+F 1 "BAT54C" V 3845 2388 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3875 2425 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3720 2300 50  0001 C CNN
+	1    3800 2300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3200 2300 3400 2300
+Wire Wire Line
+	3400 2300 3400 1900
+Wire Wire Line
+	3400 1900 3800 1900
+Wire Wire Line
+	3800 1900 3800 2000
+Wire Wire Line
+	3200 2400 3400 2400
+Wire Wire Line
+	3400 2400 3400 2700
+Wire Wire Line
+	3400 2700 3800 2700
+Wire Wire Line
+	3800 2700 3800 2600
+$Comp
+L Diode:BAT54C D1
+U 1 1 61E4245F
+P 3400 2900
+F 0 "D1" H 3400 3033 50  0000 C CNN
+F 1 "BAT54C" H 3400 3124 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3475 3025 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3320 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61DE62D5
+P 3100 2900
+F 0 "#PWR0103" H 3100 2650 50  0001 C CNN
+F 1 "GND" H 3105 2727 50  0000 C CNN
+F 2 "" H 3100 2900 50  0001 C CNN
+F 3 "" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 2700
+$Comp
+L Diode:BAT54C D2
+U 1 1 61E59D5A
+P 3400 1700
+F 0 "D2" H 3400 1925 50  0000 C CNN
+F 1 "BAT54C" H 3400 1834 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3475 1825 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3320 1700 50  0001 C CNN
+	1    3400 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 1900
+$Comp
+L power:GND #PWR0104
+U 1 1 61E5B0BD
+P 3100 1700
+F 0 "#PWR0104" H 3100 1450 50  0001 C CNN
+F 1 "GND" H 3105 1527 50  0000 C CNN
+F 2 "" H 3100 1700 50  0001 C CNN
+F 3 "" H 3100 1700 50  0001 C CNN
+	1    3100 1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 1700
+NoConn ~ 3700 2900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61E818EC
+P 7000 1700
+F 0 "H1" H 7100 1746 50  0000 L CNN
+F 1 "MountingHole" H 7100 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 7000 1700 50  0001 C CNN
+F 3 "~" H 7000 1700 50  0001 C CNN
+	1    7000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61E82025
+P 7000 1900
+F 0 "H2" H 7100 1946 50  0000 L CNN
+F 1 "MountingHole" H 7100 1855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 7000 1900 50  0001 C CNN
+F 3 "~" H 7000 1900 50  0001 C CNN
+	1    7000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61E82731
+P 7000 2100
+F 0 "H3" H 7100 2146 50  0000 L CNN
+F 1 "MountingHole" H 7100 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61E82E02
+P 7000 2300
+F 0 "H4" H 7100 2346 50  0000 L CNN
+F 1 "MountingHole" H 7100 2255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 7000 2300 50  0001 C CNN
+F 3 "~" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
