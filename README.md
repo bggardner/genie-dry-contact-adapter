@@ -10,6 +10,7 @@ The opener provides a soft ~15V to the wall console, and the wall console shorts
 * DOOR: 16kHz
 * LIGHT: 8kHz
 * LOCK: 4kHz
+
 The opener detects the frequency of the short and is able to determine which button is pressed.
 I was only interested in the DOOR signal, so I simplified the circuit, but a full schematic of the wall console is provided for convenience.
 I also discovered that the wall console itself was a dry contact adapter, as it had two-through hole pads in the circuit board that were in parallel with the DOOR button.
